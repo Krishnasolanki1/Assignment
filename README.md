@@ -1,6 +1,7 @@
 #Food Delivery App
 
  A modern food delivery app built using the latest React ecosystem tools. 
+ ![App Screenshot](./src/assets/images/demo.png)
 ---
 
 ## 🚀 Tech Stack
