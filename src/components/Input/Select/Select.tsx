@@ -1,19 +1,19 @@
-import React from 'react';
+import React from 'react'
 
 export type Option = {
-  label: string;
-  value: string;
-};
+  label: string
+  value: string
+}
 
 export type SelectProps = {
-  label?: string;
-  options: Option[];
-  value: string;
-  onChange: (e: React.ChangeEvent<HTMLSelectElement>) => void;
-  placeholder?: string;
-  name?: string;
-  required?: boolean;
-};
+  label?: string
+  options: Option[]
+  value: string
+  onChange: (e: React.ChangeEvent<HTMLSelectElement>) => void
+  placeholder?: string
+  name?: string
+  required?: boolean
+}
 
 const Select: React.FC<SelectProps> = ({
   label,
@@ -49,7 +49,7 @@ const Select: React.FC<SelectProps> = ({
         ))}
       </select>
     </div>
-  );
-};
+  )
+}
 
-export default Select;
+export default Select

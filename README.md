@@ -1,7 +1,6 @@
 #Food Delivery App
 
- A modern food delivery app built using the latest React ecosystem tools. 
----
+## A modern food delivery app built using the latest React ecosystem tools.
 
 ## 🚀 Tech Stack
 
@@ -24,3 +23,4 @@ Clone the repo and install dependencies:
 
 yarn install
 yarn start
+```

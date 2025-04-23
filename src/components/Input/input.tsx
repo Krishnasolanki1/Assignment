@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'react'
 
 export type InputProps = {
-  label?: string;
-  type?: string;
-  value: string;
-  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  placeholder?: string;
-  name?: string;
-  required?: boolean;
-};
+  label?: string
+  type?: string
+  value: string
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void
+  placeholder?: string
+  name?: string
+  required?: boolean
+}
 
 const Input: React.FC<InputProps> = ({
   label,
@@ -37,7 +37,7 @@ const Input: React.FC<InputProps> = ({
         }}
       />
     </div>
-  );
-};
+  )
+}
 
-export default Input;
+export default Input
